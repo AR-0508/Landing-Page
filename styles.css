@@ -5,8 +5,9 @@
 }
 
 body{
-    display : flex;
+ display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .upper{
@@ -193,6 +194,8 @@ body{
 .lower{
     display : flex;
     flex-direction: column;
+    flex-shrink: 0;
+    margin-top: auto;
     height : 21px;
     justify-content: center;
     align-items: center;
